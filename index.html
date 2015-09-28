@@ -18,6 +18,20 @@
     <link href="css/simple-sidebar.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
 
+
+    <!-- FancyBox -->
+    <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+
+    <!-- Responsive -->
+    
+    <link href="css/responsive.css" rel="stylesheet">
+
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -55,15 +69,15 @@
               </ul>
             <div class='footer social-icons social'>
               <ul>
-                <li><a href=""><span class="font-icon-social-facebook"></span></a></li>
-                <li><a href=""><span class="font-icon-social-twitter"></span></a></li>
-                <li><a href=""><span class="font-icon-social-linkedin"></span></a></li>
+                <li><a href="https://www.facebook.com/DgsApenas-184891164880959" target="_black"><span class="font-icon-social-facebook"></span></a></li>
+                <li><a href="https://www.twitter.com/DgsApenas" target="_black"><span class="font-icon-social-twitter"></span></a></li>
+                <li><a href="https://br.linkedin.com/pub/douglas-porto/7a/481/b75" target="_black"><span class="font-icon-social-linkedin"></span></a></li>
               </ul>
             </div>
         </div>
         <!-- /#sidebar-wrapper -->
 
-        <!-- Page Content -->
+        <!-- ABOUT -->
         <div class="header" id="about">
           <button type="button" id="btn-toggle-menu" class='btn-toggle-menu' title="Menu" data-toggle="collapse" data-target=".navbar-main-collapse">
             <span class='nav-icon'></span>
@@ -113,7 +127,7 @@
                 <h4 class='line-bottom'><i class="glyphicon glyphicon-list-alt"></i>Additional Info</h4>
                 <p>
                   <h5 class="text-muted">Personal Details.</h5>
-                  <p><strong>Birthday:</strong> 1990.</p>
+                  <p><strong>Age:</strong> 25</p>
                   <p><strong>Marital Status:</strong> Married</p>
                 </p>
                 <br>
@@ -140,22 +154,172 @@
             <div class="row">
               <div class="col-lg-12">
                 <h4 class='line-bottom'><i class="glyphicon font-icon-certificate"></i>Skill</h4>
-                <ul>
-                  <li>CSS</li>
-                  <li>HTML5</li>
-                  <li>PHP</li>
-                  <li>MySql</li>
-                </ul>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h5 class="text-muted">Web Development</h5>
+                    <ul>
+                      <li>CSS3</li>
+                      <li>HTML5</li>
+                      <li>PHP</li>
+                      <li>MySql</li>
+                      <li>JavaScript</li>
+                      <li>JQuery</li>
+                      <li>Bootstrap</li>
+                      <li>Ajax</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <h5 class="text-muted">Design</h5>
+                    <ul>
+                      <li>Photoshop</li>
+                      <li>CorelDRAW</li>
+                    </ul>
+                  </div>
+                </div>
                 <br>
                 <br>
               </div>
             </div>
           </div>
         </div>
+        <!-- works  -->
+        <div class="header" id="works">
+          <div class="container-title">
+            <i class="title">Works</i>
+          </div>
+        </div>
+        <div id="page-content-wrapper">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 work-height">
+                <!-- Portfolio Projects -->
+                <div class="row">
+                  <div class="span12">
+                      <!-- Filter -->
+                        <nav id="options" class="work-nav">
+                            <ul id="filters" class="option-set" data-option-key="filter">
+                              <li class="type-work">Type of Work</li>
+                                <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
+                                <li><a href="#filter" data-option-value=".design">Design</a></li>
+                                <li><a href="#filter" data-option-value=".site">Sites</a></li>
+                            </ul>
+                        </nav>
+                        <!-- End Filter -->
+                    </div>
+                    
+                    <div class="span12">
+                      <div class="row">
+                          <section id="projects">
+                              <ul id="thumbs">
+                                
+                      <!-- Item Project and Filter Name -->
+                                  <li class="item-thumbs span3 design">
+                                        <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                        <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="GospelClub Logo" href="img/work/full/image-01-full.jpg">
+                                            <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/image-01.jpg" alt="Logo gospel group of electronic music.">
+                                    </li>
+                                  <!-- End Item Project -->
+                                    
+                      <!-- Item Project and Filter Name -->
+                                  <li class="item-thumbs span3 site">
+                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="VaiNaContramão Blog" href="img/work/full/image-02-full.jpg">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/image-02.jpg" alt="Religious Blog.">
+                                    </li>
+                                  <!-- End Item Project -->
+                      <!-- Item Project and Filter Name -->
+                                  <li class="item-thumbs span3 site">
+                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Giboloco Site" href="img/work/full/image-03-full.jpg">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/image-03.jpg" alt="Professional tattoo artist site.">
+                                    </li>
+                                  <!-- End Item Project -->         
+                                    
+                                    <!-- Item Project and Filter Name -->
+                                  <li class="item-thumbs span3 design">
+                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FirstLove Logo" href="img/work/full/image-04-full.jpg">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/image-04.jpg" alt="Professional DJ logo.">
+                                    </li>
+                                  <!-- End Item Project -->
+                                    
+                                    <!-- Item Project and Filter Name -->
+                                  <li class="item-thumbs span3 design">
+                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="LeehOliveira Logo" href="img/work/full/image-05-full.jpg">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/image-05.jpg" alt="Professional photographer logo.">
+                                    </li>
+                                  <!-- End Item Project -->
+
+                                  <!-- Item Project and Filter Name -->
+                                  <li class="item-thumbs span3 design">
+                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="DreamPhotos Logo" href="img/work/full/image-06-full.jpg">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/image-06.jpg" alt="Professional photographer logo.">
+                                    </li>
+                                  <!-- End Item Project -->
+                                  
+                                   <!-- Item Project and Filter Name -->
+                                    <li class="item-thumbs span3 design">
+                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="TIR FC." href="img/work/full/image-07-full.jpg">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/image-07.jpg" alt="Shield soccer team.">
+                                    </li>
+                                  <!-- End Item Project -->
+                                   
+                                  <!-- Item Project and Filter Name -->
+                                    <li class="item-thumbs span3 site">
+                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="LeehOliveira Site" href="img/work/full/image-08-full.jpg">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/image-08.jpg" alt="Professional photographer site.">
+                                    </li>
+                                  <!-- End Item Project -->
+                                </ul>
+                            </section>
+                            
+                      </div>
+                    </div>
+                </div>
+                <!-- End Portfolio Projects -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACT  -->
         <div class="header" id="contact">
-          <button type="button" id="btn-toggle-menu" class='btn-toggle-menu' title="Menu" data-toggle="collapse" data-target=".navbar-main-collapse">
-            <span class='nav-icon'></span>
-          </button>
           <div class="container-title">
             <i class="title">Contact</i>
           </div>
@@ -165,7 +329,7 @@
             <div class="row">
               <div class="col-lg-12 contact">
                 <h5 class="text-muted">Like my work? Contact:</h5>
-                <ul>
+                <ul class="list-style">
                   <li><i class="glyphicon font-icon-email"></i>douglasalexandre@gmail.com</li>
                   <li><i class="glyphicon font-icon-social-twitter"></i>@DgsApenas</li>
                   <li><i class="glyphicon font-icon-social-facebook"></i>@DgsApenas</li>
@@ -173,50 +337,21 @@
                   <li><i class="glyphicon font-icon-phone-sign"></i>+15 (11) 98507-5697</li>
                 </ul>
               </div>
+            </div>
           </div>
         </div>
-        <!-- /#page-content-wrapper -->
-    </div>
+
+      </div>
     <!-- /#wrapper -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-    // $("#btn-toggle-menu").click(function(e) {
-    //     e.preventDefault();
-    //     $("#wrapper").toggleClass("toggled");
-    // });
-    var $btnMenu = jQuery('#btn-toggle-menu'),
-    $nav    = jQuery('#wrapper');
-    $btnMenu.on('click', function(e) {
-          e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-      if ($nav.hasClass('active')) {
-        // jQuery(this).removeClass('active').find('.fa').removeClass('fa-times').addClass('fa-bars');
-        jQuery('.overlay').removeClass('visible');
-        setTimeout(function(){jQuery('.overlay').remove()}, 400);
-        jQuery(this).removeClass('active').find('.nav-icon').removeClass('x');
-        $nav.removeClass('active');
-      } else {
-        // jQuery(this).addClass('active').find('.fa').removeClass('fa-bars').addClass('fa-times');
-        jQuery('body').append('<div class="overlay"></div>');
-        setTimeout(function(){jQuery('.overlay').addClass('visible')}, 5);
-        jQuery(this).addClass('active').find('.nav-icon').addClass('x');
-        // ;$btnMenu.css("left","260px")
-        $nav.addClass('active');
-      }
-    });
-    </script>
-
+    <!-- Js -->
+    <script src="js/jquery.js"></script><!-- jQuery -->
+    <script src="js/bootstrap.min.js"></script><!-- Bootstrap Core JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> <!-- Plugin JavaScript -->
+    <script src="js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+    <script src="js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+    <script src="js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->    
+    <script src="js/function.js"></script>
+    <!-- End Js -->
 </body>
-
 </html>
