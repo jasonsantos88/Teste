@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Douglas Porto</title>
+    <title>Douglas Porto | Web Developer</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,13 +18,11 @@
     <link href="css/simple-sidebar.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
 
-
     <!-- FancyBox -->
     <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
 
 
     <!-- Responsive -->
-    
     <link href="css/responsive.css" rel="stylesheet">
 
 
@@ -48,7 +46,7 @@
               <div class="team-member">
                 <p><img src="img/2.jpg" class="img-responsive img-circle" alt=""></p>
                 <h4 class="name"><span class="light">Douglas</span> Porto</h4>
-                <p class="text-muted">Developer Front-End</p>
+                <p class="text-muted">Web Developer</p>
               </div>
               <ul class="sidebar-nav">
                 <li>
@@ -59,6 +57,11 @@
                 <li>
                   <a href="#works" class=" page-scroll">
                     <div class="text"><i class='glyphicon font-icon-briefcase'></i>| Works</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" class=" page-scroll">
+                    <div class="text"><i class='glyphicon glyphicon-envelope'></i>| Blog</div>
                   </a>
                 </li>
                 <li>
@@ -127,7 +130,9 @@
                 <h4 class='line-bottom'><i class="glyphicon glyphicon-list-alt"></i>Additional Info</h4>
                 <p>
                   <h5 class="text-muted">Personal Details.</h5>
-                  <p><strong>Age:</strong> 25</p>
+                  <p>
+                    <strong>Age: </strong><span id='age'></span>
+                  </p>
                   <p><strong>Marital Status:</strong> Married</p>
                 </p>
                 <br>
@@ -155,24 +160,34 @@
               <div class="col-lg-12">
                 <h4 class='line-bottom'><i class="glyphicon font-icon-certificate"></i>Skill</h4>
                 <div class="row">
-                  <div class="col-lg-6">
-                    <h5 class="text-muted">Web Development</h5>
+                  <h5 class="text-muted">Web Development</h5>
+                  <div class="col-lg-4">
+                    <h6 class="text-muted">Front-End</h6>
                     <ul>
                       <li>CSS3</li>
                       <li>HTML5</li>
-                      <li>PHP</li>
-                      <li>MySql</li>
-                      <li>JavaScript</li>
-                      <li>JQuery</li>
                       <li>Bootstrap</li>
-                      <li>Ajax</li>
+                      <li>AngularJS</li>
+                      <li>Grunt</li>
                     </ul>
                   </div>
-                  <div class="col-lg-6">
-                    <h5 class="text-muted">Design</h5>
+                  <div class="col-lg-4">
+                    <h6 class="text-muted">Back-End</h6>
                     <ul>
-                      <li>Photoshop</li>
-                      <li>CorelDRAW</li>
+                      <li>JavaScript</li>
+                      <li>JQuery</li>
+                      <li>PHP</li>
+                      <li>MySql</li>
+                      <li>Ajax</li>
+                      <li>Laravel</li>
+                      <li>CodeIgniter</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4">
+                    <h6 class="text-muted">Others</h6>
+                    <ul>
+                      <li>SEO</li>
+                      <li>Scrum</li>
                     </ul>
                   </div>
                 </div>
@@ -200,7 +215,7 @@
                             <ul id="filters" class="option-set" data-option-key="filter">
                               <li class="type-work">Type of Work</li>
                                 <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                                <li><a href="#filter" data-option-value=".design">Design</a></li>
+                                <li><a href="#filter" data-option-value=".system">System</a></li>
                                 <li><a href="#filter" data-option-value=".site">Sites</a></li>
                             </ul>
                         </nav>
@@ -211,20 +226,7 @@
                       <div class="row">
                           <section id="projects">
                               <ul id="thumbs">
-                                
-                      <!-- Item Project and Filter Name -->
-                                  <li class="item-thumbs span3 design">
-                                        <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                        <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="GospelClub Logo" href="img/work/full/image-01-full.jpg">
-                                            <span class="overlay-img"></span>
-                                            <span class="overlay-img-thumb font-icon-search"></span>
-                                        </a>
-                                        <!-- Thumb Image and Description -->
-                                        <img src="img/work/thumbs/image-01.jpg" alt="Logo gospel group of electronic music.">
-                                    </li>
-                                  <!-- End Item Project -->
-                                    
-                      <!-- Item Project and Filter Name -->
+                                  <!-- Item Project and Filter Name -->
                                   <li class="item-thumbs span3 site">
                                       <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                       <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="VaiNaContramão Blog" href="img/work/full/image-02-full.jpg">
@@ -235,7 +237,18 @@
                                         <img src="img/work/thumbs/image-02.jpg" alt="Religious Blog.">
                                     </li>
                                   <!-- End Item Project -->
-                      <!-- Item Project and Filter Name -->
+                                  <!-- Item Project and Filter Name -->
+                                  <li class="item-thumbs span3 system">
+                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Bradesco Promoters System" href="img/work/thumbs/bmc.png">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb font-icon-search"></span>
+                                        </a>
+                                        <!-- Thumb Image and Description -->
+                                        <img src="img/work/thumbs/bmc.png" alt="I participated in the back-end and front-end of the call center systems Bradesco Promoters: Sales, Loyalty and Central Customer internal correspondent">
+                                    </li>
+                                  <!-- End Item Project -->
+                                  <!-- Item Project and Filter Name -->
                                   <li class="item-thumbs span3 site">
                                       <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                       <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Giboloco Site" href="img/work/full/image-03-full.jpg">
@@ -246,55 +259,6 @@
                                         <img src="img/work/thumbs/image-03.jpg" alt="Professional tattoo artist site.">
                                     </li>
                                   <!-- End Item Project -->         
-                                    
-                                    <!-- Item Project and Filter Name -->
-                                  <li class="item-thumbs span3 design">
-                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FirstLove Logo" href="img/work/full/image-04-full.jpg">
-                                          <span class="overlay-img"></span>
-                                            <span class="overlay-img-thumb font-icon-search"></span>
-                                        </a>
-                                        <!-- Thumb Image and Description -->
-                                        <img src="img/work/thumbs/image-04.jpg" alt="Professional DJ logo.">
-                                    </li>
-                                  <!-- End Item Project -->
-                                    
-                                    <!-- Item Project and Filter Name -->
-                                  <li class="item-thumbs span3 design">
-                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="LeehOliveira Logo" href="img/work/full/image-05-full.jpg">
-                                          <span class="overlay-img"></span>
-                                            <span class="overlay-img-thumb font-icon-search"></span>
-                                        </a>
-                                        <!-- Thumb Image and Description -->
-                                        <img src="img/work/thumbs/image-05.jpg" alt="Professional photographer logo.">
-                                    </li>
-                                  <!-- End Item Project -->
-
-                                  <!-- Item Project and Filter Name -->
-                                  <li class="item-thumbs span3 design">
-                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="DreamPhotos Logo" href="img/work/full/image-06-full.jpg">
-                                          <span class="overlay-img"></span>
-                                            <span class="overlay-img-thumb font-icon-search"></span>
-                                        </a>
-                                        <!-- Thumb Image and Description -->
-                                        <img src="img/work/thumbs/image-06.jpg" alt="Professional photographer logo.">
-                                    </li>
-                                  <!-- End Item Project -->
-                                  
-                                   <!-- Item Project and Filter Name -->
-                                    <li class="item-thumbs span3 design">
-                                      <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="TIR FC." href="img/work/full/image-07-full.jpg">
-                                          <span class="overlay-img"></span>
-                                            <span class="overlay-img-thumb font-icon-search"></span>
-                                        </a>
-                                        <!-- Thumb Image and Description -->
-                                        <img src="img/work/thumbs/image-07.jpg" alt="Shield soccer team.">
-                                    </li>
-                                  <!-- End Item Project -->
-                                   
                                   <!-- Item Project and Filter Name -->
                                     <li class="item-thumbs span3 site">
                                       <!-- Fancybox - Gallery Enabled - Title - Full Image -->
