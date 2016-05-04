@@ -34,47 +34,47 @@
     <div id="wrapper">
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
-              <div class="team-member">
-                <p><img src="../img/2.jpg" class="img-responsive img-circle" alt=""></p>
-                <h4 class="name"><span class="light">Douglas</span> Porto</h4>
-                <p class="text-muted">Desenvolvedor   Web</p>
-                <div class="text-center">
-                  <label class="label" for="idiom">Idioma: </label>
-                  <select name="idiom" id="idiom" class="form-control">
-                    <option value="en">Inglês</option>
-                    <option value="pt_br" selected="">Português</option>
-                  </select>
-                </div>
-              </div>
-              <ul class="sidebar-nav">
-                <li>
-                    <a href="#about" class=" page-scroll">
-                      <div class="text"><i class='glyphicon glyphicon-user'></i>| Sobre</div>
-                    </a>
-                </li>
-                <li>
-                  <a href="#works" class=" page-scroll">
-                    <div class="text"><i class='glyphicon font-icon-briefcase'></i>| Trabalhos</div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" class=" page-scroll">
-                    <div class="text"><i class='glyphicon font-icon-social-blogger'></i>| Blog</div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" class=" page-scroll">
-                    <div class="text"><i class='glyphicon glyphicon-envelope'></i>| Contato</div>
-                  </a>
-                </li>
-              </ul>
-            <div class='footer social-icons social'>
-              <ul>
-                <li><a href="https://www.facebook.com/DgsApenas-184891164880959" target="_black"><span class="font-icon-social-facebook"></span></a></li>
-                <li><a href="https://www.twitter.com/DgsApenas" target="_black"><span class="font-icon-social-twitter"></span></a></li>
-                <li><a href="https://br.linkedin.com/pub/douglas-porto/7a/481/b75" target="_black"><span class="font-icon-social-linkedin"></span></a></li>
-              </ul>
+          <div class="team-member">
+            <p><img src="../img/douglas-profile.jpg" class="img-responsive img-circle" alt="Douglas Porto Profile"></p>
+            <h4 class="name"><span class="light">Douglas</span> Porto</h4>
+            <p class="text-muted">Desenvolvedor   Web</p>
+            <div class="text-center">
+              <label class="label" for="idiom">Idioma: </label>
+              <select name="idiom" id="idiom" class="form-control">
+                <option value="en">Inglês</option>
+                <option value="pt_br" selected="">Português</option>
+              </select>
             </div>
+          </div>
+          <ul class="sidebar-nav">
+            <li>
+                <a href="#about" class=" page-scroll">
+                  <div class="text"><i class='glyphicon glyphicon-user'></i>| Sobre</div>
+                </a>
+            </li>
+            <li>
+              <a href="#works" class=" page-scroll">
+                <div class="text"><i class='glyphicon font-icon-briefcase'></i>| Trabalhos</div>
+              </a>
+            </li>
+            <!--<li>-->
+            <!--  <a href="#contact" class=" page-scroll">-->
+            <!--    <div class="text"><i class='glyphicon font-icon-social-blogger'></i>| Blog</div>-->
+            <!--  </a>-->
+            <!--</li>-->
+            <li>
+              <a href="#contact" class=" page-scroll">
+                <div class="text"><i class='glyphicon glyphicon-envelope'></i>| Contato</div>
+              </a>
+            </li>
+          </ul>
+          <div class='footer social-icons social'>
+            <ul>
+              <li><a href="https://www.facebook.com/DgsApenas-184891164880959" target="_black"><span class="font-icon-social-facebook"></span></a></li>
+              <li><a href="https://www.twitter.com/DgsApenas" target="_black"><span class="font-icon-social-twitter"></span></a></li>
+              <li><a href="https://br.linkedin.com/pub/douglas-porto/7a/481/b75" target="_black"><span class="font-icon-social-linkedin"></span></a></li>
+            </ul>
+          </div>
         </div>
         <!-- /#sidebar-wrapper -->
 
@@ -190,9 +190,11 @@
             </div>
             <div class="row">
               <div class="col-lg-12">
-                <h4 class='line-bottom'><i class="glyphicon font-icon-certificate"></i>Habilidades</h4>
                 <div class="row">
-                  <h5 class="text-muted">Desenvolvimento WEB</h5>
+                  <div class="col-md-12">
+                    <h4 class='line-bottom'><i class="glyphicon font-icon-certificate"></i>Habilidades</h4>
+                    <h5 class="text-muted">Desenvolvimento WEB</h5>
+                  </div>
                   <div class="col-lg-4">
                     <h6 class="text-muted">Front-End</h6>
                     <ul>
@@ -229,18 +231,133 @@
               </div>
             </div>
           </div>
-          <!-- works  -->
+          <!-- WORKS  -->
           <div id="works"></div>
           <div class="container-fluid">
             <div class="row">
-              <div class="col-lg-12 work-height">
+              <div class="col-md-12 work-height">
                 <div class="container-title1">
-                  <i class="title">Trabalhos</i>
+                  <i class="title">WORK</i>
                   <p class="line2"></p>
                 </div>
+                <!--FILTER -->
+                <div class="cta filter">
+                  <a class="bg-green active" data-filter="all" href="#" role="button">All Work</a>
+                  <a class="bg-red" data-filter="red" href="#" role="button">Back-End</a>
+                  <a class="bg-blue" data-filter="blue" href="#" role="button">Front-End</a>
+                </div>
+                <!--FILTER END -->
+                <!--BOX -->
+                <div class="boxes">
+                  <div class="row">
+                    <!--BRADESCO LOYALTY-->
+                    <div class="col-md-12 box-work bd-red" data-category="red">
+                      <div class="box-title red">Bradesco Promotoras - Fidelização</div>
+                      <div class="box-content">
+                        <div class="rown">
+                          <div class="col-md-3 box-img">
+                            <img src="../img/work/thumbs/bmc.png" alt="Bradesco Promotoras"></img>
+                          </div>
+                          <div class="col-md-9">
+                            Sistema de callcenter para a empresa Bradesco promotoras. 
+                            Designado a tentar reter clientes que queiram pagar seus emprestimos
+                            <ul>
+                              <li>PHP</li>
+                              <li>Mysql</li>
+                              <li>JavaScript (Jquery)</li>
+                            </ul>
+                          </div>
+                          <div class="col-md-12 box-footer">
+                            Feito pela empresa Uranet utilizando sistema IntergrALL
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--BRADESCO LOYALTY END-->
+                    <!--MARCELO-->
+                    <div class="col-md-12 box-work bd-blue" data-category="blue">
+                      <div class="box-title blue">Marcelo Diniz Bodybuilder - Site/Blog</div>
+                      <div class="box-content">
+                        <div class="rown">
+                          <div class="col-md-3 box-img">
+                            <img src="../img/work/thumbs/marcelo.png" alt="Site Marcelo Diniz"></img>
+                          </div>
+                          <div class="col-md-9">
+                            Site responsivo designado ao Professor de fisiculturismo Marcelo Diniz. 
+                            Página com informações e Blog de dicas.
+                            <ul>
+                              <li>HTML5</li>
+                              <li>CSS3</li>
+                              <li>Bootstrap</li>
+                              <li>JavaScript (Jquery)</li>
+                              <li>Wordpress</li>
+                            </ul>
+                          </div>
+                          <div class="col-md-12 box-footer">
+                            <a href="http://marcelodinizbodybuilder.com.br/" target="_black">Veja o Trabalho</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--MARCELO END-->
+                    <!--BRADESCO SALES-->
+                    <div class="col-md-12 box-work bd-red" data-category="red">
+                      <div class="box-title red">Bradesco Promotoras - Vendas</div>
+                      <div class="box-content">
+                        <div class="rown">
+                          <div class="col-md-3 box-img">
+                            <img src="../img/work/thumbs/bmc.png" alt="Bradesco Promotoras"></img>
+                          </div>
+                          <div class="col-md-9">
+                            Sistema de callcenter para a empresa Bradesco promotoras. 
+                            <br/>
+                            Designado a venda de novos produtos como emprestimos consignados.
+                            <ul>
+                              <li>PHP</li>
+                              <li>Mysql</li>
+                              <li>JavaScript (Jquery)</li>
+                            </ul>
+                          </div>
+                          <div class="col-md-12 box-footer">
+                            Feito pela empresa Uranet utilizando sistema IntergrALL
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--BRADESCO SALES END-->
+                    <!--SANTA MONICA-->
+                    <div class="col-md-12 box-work bd-blue" data-category="blue">
+                      <div class="box-title blue">Condominium Santa Mônica - Site/Blog</div>
+                      <div class="box-content">
+                        <div class="rown">
+                          <div class="col-md-3 box-img">
+                            <img src="../img/work/thumbs/monica.png" alt="Bradesco Promotoras"></img>
+                          </div>
+                          <div class="col-md-9">
+                            Site responsivo de um condomínio residêncial. 
+                            Com integração com Worpress para postagem de notícias e serviços ao redor do condomínio.
+                            <ul>
+                              <li>HTML5</li>
+                              <li>CSS3</li>
+                              <li>Bootstrap</li>
+                              <li>JavaScript (Jquery)</li>
+                              <li>Wordpress</li>
+                            </ul>
+                          </div>
+                          <div class="col-md-12 box-footer">
+                            <a href="http://condominiosantamonica.com.br/" target="_black">Veja o Trabalho</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--SANTA MONICA END-->
+                  </div>
+                </div>
+                <!--BOX END-->
               </div>
             </div>
           </div>
+          <!-- WORKS END-->
           <!-- CONTACT  -->
           <div id="contact"></div>
           <div class="container-fluid">
